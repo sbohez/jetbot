@@ -19,7 +19,7 @@ else
 	echo "JETBOT_BASE_IMAGE not found for ${L4T_VERSION}.  Please manually set the JETBOT_BASE_IMAGE environment variable. (ie: export JETBOT_BASE_IMAGE=...)"
 fi
 
-export JETBOT_DOCKER_REMOTE=jetbot
+export JETBOT_DOCKER_REMOTE=waveshare
 
 ./set_nvidia_runtime.sh
 sudo systemctl enable docker
