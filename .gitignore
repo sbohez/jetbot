@@ -3,3 +3,6 @@
 
 # MkDocs documentation
 site/
+
+# macOS
+.DS_Store
